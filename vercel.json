@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/predict2(.*)", "destination": "/skin/app" },
+    { "source": "/wiki(.*)", "destination": "/skin/wikipedia" },
+    { "source": "/predict1(.*)", "destination": "/symptoms/app" },
+    { "source": "/chatbot(.*)", "destination": "/WellPro/chatbot" },
+    { "source": "/contacts(.*)", "destination": "/WellPro/mysql/mysql" }
+  ]
+}
